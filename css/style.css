@@ -1,0 +1,36 @@
+nav {
+padding: center;
+background-color: lightgrey;
+height: 50px;
+display: flex;
+margin-top: auto;
+position: static;
+}
+nav a 
+{background-color: darkgreen;
+padding: 15px;
+width: 100px;
+margin-right: 2px;
+text-align: center;
+color: white; 
+text-decoration: none;
+position: relative;
+top: 0;
+left: 0;}
+
+
+nav a :hover
+{color: red;
+background-color: white;}
+
+.aside { background-color: royalblue; 
+    width: 20%;
+height: 500px;
+display: block;}
+
+.section {
+    background-color: seagreen;
+    width: 70%;
+    height: 1000px;
+    float: right;
+}
